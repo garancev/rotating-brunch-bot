@@ -10,15 +10,15 @@ default: &default
     schedule: monthly
     size: 2
   rotating_brunch:
-    active: true
+    active: false
     channel: rotating-brunch
     schedule: fortnightly
     size: 4
   test_channel:
     active: false
-    channel: rotating-test-channel
+    channel: test-coffee-channel
     schedule: daily
-    size: 4
+    size: 2
 
 development:
   <<: *default
