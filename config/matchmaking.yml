@@ -15,7 +15,7 @@ default: &default
     schedule: fortnightly
     size: 4
   test_channel:
-    active: false
+    active: true
     channel: test-coffee-channel
     schedule: daily
     size: 2
